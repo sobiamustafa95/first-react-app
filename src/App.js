@@ -11,7 +11,7 @@ const App = () => {
 
   return(
     <>
-    <h1> My name is {` ${firstName} ${lastName}`} </h1>
+    <h1 contentEditable = "true"> My name is {` ${firstName} ${lastName}`} </h1>
     <p> Today date is {`${currentDate}`} </p>
     <p> Current time is {`${currentTime}`} </p>
     </>
